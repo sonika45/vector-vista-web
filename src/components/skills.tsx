@@ -72,7 +72,7 @@ export function Skills() {
                               delay: reduce ? 0 : si * 0.08,
                               ease: [0.22, 1, 0.36, 1],
                             }}
-                            style={reduce ? { width: skillLevelWidth[skill.level] } : undefined}
+                            style={reduce ? { width: skillLevelWidth[skill.level] } : {}}
                           />
                         </div>
                       </li>
