@@ -138,7 +138,7 @@ export function AiCoreVisual() {
       <motion.div
         className="absolute left-1/2 top-1/2 flex h-[34%] w-[34%] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full glass"
         style={{ x: px * 16, y: py * 16 }}
-        animate={reduce ? undefined : { scale: [1, 1.045, 1] }}
+        animate={reduce ? {} : { scale: [1, 1.045, 1] }}
         transition={{ duration: 4.5, repeat: Infinity, ease: "easeInOut" }}
       >
         <div
