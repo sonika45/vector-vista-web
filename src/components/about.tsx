@@ -39,7 +39,7 @@ export function About() {
                 <Reveal
                   key={card.label}
                   delay={i * 0.08}
-                  className={i === aboutCards.length - 1 ? "sm:col-span-2" : undefined}
+                  className={i === aboutCards.length - 1 ? "sm:col-span-2" : ""}
                 >
                   <div className="group h-full rounded-2xl glass p-5 transition-all duration-300 hover:-translate-y-1 hover:glow">
                     <span className="inline-flex rounded-xl bg-gradient-brand p-2.5 text-primary-foreground">
